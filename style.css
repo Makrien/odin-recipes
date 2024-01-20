@@ -1,0 +1,87 @@
+/* === Normalise === */
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    display: block;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+pre {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+a {
+    background-color: transparent;
+}
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+img {
+    border-style: none;
+}
+
+/* === End of Normalise === */
+
+@font-face {
+    font-family: "Norse Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: url(./fonts/Norse.woff);
+}
+
+@font-face {
+    font-family: "Norse Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: url(./fonts/Norsebold.woff);
+}
+
+body {
+    background: #863f2a;
+}
+
+.header {
+    text-align: center;
+    font-family: 'Norse Regular', 'Share Tech Mono', monospace;
+}
+
+.main-title {
+    font-size: 4em;
+}
+
+.sub-title {
+    font-size: 2em;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+}
