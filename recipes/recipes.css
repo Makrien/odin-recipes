@@ -41,4 +41,59 @@ img {
     border-style: none;
 }
 
-/* === End of Normalise === */
+
+/* === Fonts === */
+
+@font-face {
+    font-family: "Norse Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/Norse.woff);
+}
+
+@font-face {
+    font-family: "Norse Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/Norsebold.woff);
+}
+
+h1, 
+h2 {
+    font-family: "Norse Bold";
+}
+
+#content {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(70,37,30);
+    background: linear-gradient(90deg, rgba(70,37,30,1) 0%, rgba(135,67,46,1) 100%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: antiquewhite;
+}
+
+.header {
+    text-align: center;
+    font-family: 'Norse Regular', 'Share Tech Mono', monospace;
+}
+
+.header-title {
+    font-size: 4em;
+    padding: 0;
+    margin: 0.2em;
+    border: 0;
+}
+
+.header-subtitle {
+    font-size: 1.5em;
+    padding: 0;
+    margin: 0.1em;
+    border: 0;
+}
+
+sub {
+    font-size: 0.5em
+}
