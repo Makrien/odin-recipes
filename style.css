@@ -79,6 +79,11 @@ img {
 .header {
     text-align: center;
     font-family: 'Norse Regular', 'Share Tech Mono', monospace;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
 }
 
 .header a {

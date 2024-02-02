@@ -78,6 +78,25 @@ h2 {
 .header {
     text-align: center;
     font-family: 'Norse Regular', 'Share Tech Mono', monospace;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+.header a {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50vw;
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+.header a img {
+    height: 200px;
+    width: auto;
 }
 
 .header-title {
