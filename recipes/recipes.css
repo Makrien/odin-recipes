@@ -41,9 +41,7 @@ img {
     border-style: none;
 }
 
-
 /* === Fonts === */
-
 @font-face {
     font-family: "Norse Regular";
     font-style: normal;
@@ -58,6 +56,7 @@ img {
     src: url(../fonts/Norsebold.woff);
 }
 
+/* === Styles === */
 h1, 
 h2 {
     font-family: "Norse Bold";
@@ -115,4 +114,12 @@ h2 {
 
 sub {
     font-size: 0.5em
+}
+
+.serving-img {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    height: 25em;
+    width: auto;
 }
