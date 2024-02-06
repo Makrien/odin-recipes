@@ -123,3 +123,35 @@ sub {
     height: 25em;
     width: auto;
 }
+
+.section-wrapper {
+  overflow: hidden;
+  position: relative;
+  width: 80%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 1em;
+}
+
+.section-bg {
+  opacity: 0.2;
+  position: absolute;
+}
+
+.section-content {
+  position: relative;
+  margin: 2em;
+}
+
+/* .section {
+    width: 80%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 1em;
+    padding: 0.7em;
+    background-image: url(../img/brown-wood-surface.jpg);
+    background-size: cover;
+    opacity: 0.2;
+} */
