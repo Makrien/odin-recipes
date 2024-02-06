@@ -127,6 +127,7 @@ sub {
     grid-template-rows: repeat(3, 1fr);
     text-align: center;
     list-style: none;
+    font-size: 1.5em;
 }
 
 li {
@@ -160,7 +161,7 @@ li {
     padding: 10px;
     border: 1px solid rgba(0, 0, 0, 0.5);
     transition: all 0.3s ease-in-out;
-    cursor: pointer;   
+    cursor: pointer;
 }
 
 .recipe-img:hover {
