@@ -82,6 +82,7 @@ h2 {
     display: flex;
     justify-content: center;
     padding: 1%;
+    border-radius: 0 0 10px 10px;
 }
 
 .header a {
@@ -135,7 +136,7 @@ sub {
 }
 
 .section-bg {
-  opacity: 0.2;
+  opacity: 0.4;
   position: absolute;
 }
 
@@ -144,14 +145,22 @@ sub {
   margin: 2em;
 }
 
-/* .section {
-    width: 80%;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 10%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    margin: 1em;
-    padding: 0.7em;
-    background-image: url(../img/brown-wood-surface.jpg);
-    background-size: cover;
-    opacity: 0.2;
-} */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  margin: 2em 0 0 0;
+  padding: 1em;
+  width: 95vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px 10px 0 0;
+  font-family: 'Norse Regular', 'Share Tech Mono', monospace;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+.footer a:hover {
+  color: rgb(255, 157, 135);
+}
